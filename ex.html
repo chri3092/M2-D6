@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M2-D6</title>
+    <style>
+        td {
+           padding: 10px; 
+           border: 1px solid black;
+           
+        }
+        h1 {
+            position: relative;
+            left: 8%;
+        }
+
+        .newCss {
+            
+        color: blue;
+    }
+
+    .hide {
+      visibility: hidden;
+    }
+    </style>
+</head>
+<body>
+    <h1>MAGLIETTE MILAN</h1>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="5">
+                    PRODOTTI PIÙ VENDUTI
+                </th>
+
+            </tr>
+        </thead>
+<tr>
+    <td>
+        <img src="assets/tonali.jpg" alt="tonali img" style="width: 100px; height: 100px" >
+    </td>
+       <td>
+        <a href="https://www.amazon.it/ZeroPlayer-Replica-Ufficiale-Bambino-Poliestere/dp/B09CZ2DG8T/ref=asc_df_B09CZ2DG8T/?tag=googshopit-21&linkCode=df0&hvadid=386502878521&hvpos=&hvnetw=g&hvrand=5573789700455088999&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008857&hvtargid=pla-1485519632604&psc=1&tag=&ref=&adgrpid=80613233964&hvpone=&hvptwo=&hvadid=386502878521&hvpos=&hvnetw=g&hvrand=5573789700455088999&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008857&hvtargid=pla-1485519632604">Link</a>
+       </td>
+    <td>La maglietta di Tonali</td>
+    <td class="price">25 €</td>
+</tr>
+<tr>
+    <td>
+        <img src="assets/ibra.jpg" alt="ibra img" style="width: 100px; height: 100px" >
+    </td>
+       <td>
+        <a href=https://www.amazon.it/DND-DAndolfo-Ciro-Ibrahimovic-autorizzata/dp/B08FCSWCHV/ref=sr_1_1_sspa?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1YBG6WGV4245L&keywords=maglia+ibrahimovic+milan&qid=1688994092&s=sports&sprefix=maglietta+ibrahimovic+milan%2Csporting%2C161&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1>Link</a>
+       </td>
+    <td>La maglietta di Ibrahimovic</td>
+    <td class="price">27,90 €</td>
+</tr>
+<tr>
+    <td>
+        <img src="assets/giroud.png" alt="giroud img" style="width: 100px; height: 100px" >
+    </td>
+       <td>
+        <a href="https://www.amazon.it/Personalizzata-Olivier-Replica-Ufficiale-Poliestere/dp/B0B7FCYL83/ref=asc_df_B0B7FCYL83/?tag=googshopit-21&linkCode=df0&hvadid=610957839264&hvpos=&hvnetw=g&hvrand=15558693677999532519&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008857&hvtargid=pla-1744244920518&psc=1">Link</a>
+       </td>
+    <td>La maglietta di Giroud</td>
+    <td class="price">29,99 €</td>
+</tr>
+<tr>
+    <td>
+        <img src="assets/leao.jpg" alt="leao img" style="width: 100px; height: 100px" >
+    </td>
+       <td>
+        <a href="https://www.amazon.it/ZeroPlayer-Replica-Ufficiale-Bambino-Poliestere/dp/B09CZ3BQ9J/ref=asc_df_B09CZ3BQ9J/?tag=googshopit-21&linkCode=df0&hvadid=501007888203&hvpos=&hvnetw=g&hvrand=14100745011603395318&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008857&hvtargid=pla-1436270618313&psc=1">Link</a>
+       </td>
+    <td>La maglietta di Leao</td>
+    <td class="price">27,99 €</td>
+</tr>
+<tr>
+    <td>
+        <img src="assets/bennacer.jpg" alt="bennacer img" style="width: 100px; height: 100px" >
+    </td>
+       <td>
+        <a href="https://www.amazon.it/ZeroPlayer-Replica-Ufficiale-Bambino-Poliestere/dp/B09CZ2DG8T/ref=asc_df_B09CZ2DG8T/?tag=googshopit-21&linkCode=df0&hvadid=386502878521&hvpos=&hvnetw=g&hvrand=5573789700455088999&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008857&hvtargid=pla-1485519632604&psc=1&tag=&ref=&adgrpid=80613233964&hvpone=&hvptwo=&hvadid=386502878521&hvpos=&hvnetw=g&hvrand=5573789700455088999&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008857&hvtargid=pla-1485519632604">Link</a>
+       </td>
+    <td>La maglietta di Bennacer</td>
+    <td class="price">34,98 €</td>
+</tr>
+</table>
+<div> <textarea name="note" id="textarea" cols="30" rows="10" placeholder="Scrivi qui eventuali note.."></textarea>
+</div>
+<button onclick="changeText()">Tasto magico</button>
+<button onclick="changeBg()">Cambia con LightBlue</button>
+<button onclick="changeAdd()">Cambia Indirizzo</button>
+<button onclick="addCss()">Aggiungi classe</button>
+<button onclick="remImg()">Aziona</button>
+<button onclick="findColor()">Random color</button>
+<footer>
+    <div>MAGLIETTE MILAN SHOP</div>
+    <div class="address">Piazza Emanuele Filiberto 108, Torino 10040</div>
+</footer>
+
+<script>
+    //es 7
+    const changeText = function (){
+        document.querySelector('h1').innerText = 'Forza Juve'
+    }
+
+
+     //es 8
+
+     const changeBg = function () {
+        document.querySelector('body').style.backgroundColor = 'lightblue'
+     }
+
+     //es 9
+     const changeAdd = function(){
+        document.querySelector('.address').innerText = 'New address'
+     }
+
+     //es 10 giusto ? bo, 
+
+    
+
+    //es 11
+/*
+    const remImg = function (){
+        let allImg = document.querySelectorAll('img')
+            for(let i = 0; i < allImg.length; i++) {
+                const oneImg =  allImg[i]
+                oneImg.classList.toggle('hide') 
+            }
+        } 
+    */
+    const remImg = function (){
+        let allImg = document.querySelectorAll('img')
+        for (const oneImg of allImg ) {
+            oneImg.classList.toggle('hide')
+        }
+    }
+    
+
+    //es 12
+
+    const getColor = function () {
+    const red = Math.round(Math.random()* 255)
+    const green = Math.round(Math.random()* 255)
+    const blue = Math.round(Math.random()* 255)
+
+    return 'rgb(' + red + ', ' + green + ', ' + blue + ')'
+}
+
+    const findColor = function () {
+        const color = getColor()
+        let prezzi = document.querySelectorAll('.price')
+        for(let ogniPrezzo of prezzi) {
+            ogniPrezzo.style.color = color
+        }
+    }
+
+
+</script>
+</body>
+</html>
